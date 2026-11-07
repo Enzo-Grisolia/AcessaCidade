@@ -205,20 +205,14 @@ Os testes automatizados verificam, entre outros comportamentos, visibilidade de 
 | Integrante | RM |
 | --- | --- |
 | Enzo Grisolia de Souza | 555706 |
-| **[Nome completo do integrante 2]** | **[RM]** |
-| **[Nome completo do integrante 3]** | **[RM]** |
+| Lucas Rodrigues Alves | 555377 |
+| Rafael Catapani Scharlack | 554633 |
 
-**Disciplina:** Desenvolvimento Mobile com Flutter  
-**Professor:** Heider Lopes
 
 ## 11. Links e materiais da entrega
 
-Preencher antes da submissão:
-
-- **Repositório GitHub:** `[ADICIONAR LINK]`
 - **Vídeo de demonstração/pitch:** `[ADICIONAR LINK, SE EXIGIDO]`
 - **Capturas de tela:** `[ADICIONAR CAPTURAS REAIS EM docs/screenshots/, SE EXIGIDAS]`
-- **Arquivo ZIP da entrega:** disponibilizado conforme orientações da disciplina.
 
 ---
 
