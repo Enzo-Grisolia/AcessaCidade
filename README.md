@@ -124,6 +124,40 @@ Na tela **Relatar**, a consulta possui quatro estados explícitos:
 
 O campo de endereço também aceita preenchimento manual. **A consulta exige conexão com a internet** e está sujeita às políticas e à disponibilidade da API pública. O serviço foi pensado para acionamento manual, não para autocomplete.
 
+
+### Fluxo de telas
+
+O AcessaCidade possui um fluxo de navegação responsivo, desenvolvido em Flutter, que permite ao cidadão consultar locais públicos, identificar barreiras de acessibilidade e registrar novas ocorrências.
+
+```text
+Splash Screen
+     |
+     v
+Onboarding (3 telas — exibido no primeiro acesso)
+     |
+     v
+Tela principal — AcessaCidade
+     |
+     +-- Mapa: marcadores, filtros e detalhes das barreiras
+     +-- Locais: pesquisa, categorias e checklist Sim/Não
+     +-- Relatar: cadastro de barreiras, localização e fotografia
+     +-- Notícias: informações demonstrativas sobre acessibilidade
+     +-- Gestor: indicadores, moderação, prioridades e relatório PDF
+```
+
+**Fluxo de registro e moderação:**
+
+1. O cidadão acessa **Relatar**, informa os dados da barreira e seleciona sua localização.
+2. O relato é enviado para uma **fila de moderação**, sem publicação imediata no mapa.
+3. O gestor consulta a ocorrência e a pré-análise demonstrativa de IA.
+4. Se o relato for **aprovado**, ele passa a aparecer no mapa e na lista pública. Se for **rejeitado**, permanece fora da visualização pública.
+5. A comunidade pode consultar os detalhes e informar se a barreira ainda existe ou foi resolvida.
+
+O sistema também permite navegar pelos locais públicos, consultar checklists de acessibilidade e visualizar indicadores no painel do gestor.
+
+Para mais informações, consulte [Fluxo e demonstração](docs/fluxo_e_demo.md).
+  
+
 ## 6. Priorização das ocorrências
 
 O painel do gestor usa uma **pontuação demonstrativa e explicável** implementada em `lib/services/priority_service.dart`:
