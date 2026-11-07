@@ -2,6 +2,16 @@
 
 > **Global Solution FIAP · 2º semestre de 2026 · Flutter / Dart**
 
+## . Equipe
+
+**FIAP — Sistemas de Informação — Global Solution 2026.2**
+
+| Integrante | RM |
+| --- | --- |
+| Enzo Grisolia de Souza | 555706 |
+| Lucas Rodrigues Alves | 555377 |
+| Rafael Catapani Scharlack | 554633 |
+
 O **AcessaCidade** é um protótipo acadêmico de aplicativo colaborativo para registrar, consultar e acompanhar barreiras de acessibilidade em espaços urbanos. A proposta é reunir relatos da comunidade e informações sobre equipamentos públicos em uma interface que ajude cidadãos a identificar problemas e gestores a priorizar melhorias.
 
 **Área demonstrativa:** Bela Vista, São Paulo (SP).
@@ -198,18 +208,7 @@ Os testes automatizados verificam, entre outros comportamentos, visibilidade de 
 - O aplicativo ainda não foi auditado segundo critérios WCAG nem validado em estudos com usuários com deficiência.
 - As informações exibidas **não são adequadas para planejar deslocamentos reais**.
 
-## 10. Equipe
-
-**FIAP — Sistemas de Informação — Global Solution 2026.2**
-
-| Integrante | RM |
-| --- | --- |
-| Enzo Grisolia de Souza | 555706 |
-| Lucas Rodrigues Alves | 555377 |
-| Rafael Catapani Scharlack | 554633 |
-
-
-## 11. Links e materiais da entrega
+## 10. Links e materiais da entrega
 
 - **Vídeo de demonstração/pitch:** `[ADICIONAR LINK, SE EXIGIDO]`
 - **Capturas de tela:** `[ADICIONAR CAPTURAS REAIS EM docs/screenshots/, SE EXIGIDAS]`
