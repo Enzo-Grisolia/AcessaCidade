@@ -1,0 +1,32 @@
+name: acessacidade
+description: Protótipo da Global Solution FIAP 2026.2 — mapa colaborativo de acessibilidade urbana.
+publish_to: none
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map: ^8.3.2
+  latlong2: ^0.10.0
+  http: ^1.6.0
+  shared_preferences: ^2.5.5
+  image_picker: ^1.2.3
+  pdf: ^3.12.0
+  printing: ^5.14.3
+  # Compatibilidade: image 4.11.0 podia ser resolvido com archive 4.0.9,
+  # que nao inclui ZLibDecoder.decodeLazy. As versoes abaixo evitam isso.
+  image: ^4.11.1
+  archive: ^4.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/acessacidade_logo.png
