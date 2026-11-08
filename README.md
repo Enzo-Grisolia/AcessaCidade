@@ -2,7 +2,7 @@
 
 > **Global Solution FIAP · 2º semestre de 2026 · Flutter / Dart**
 
-## . Equipe
+## Equipe
 
 **FIAP — Sistemas de Informação — Global Solution 2026.2**
 
