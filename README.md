@@ -294,6 +294,29 @@ Os testes automatizados verificam, entre outros comportamentos, visibilidade de 
 
 - **Vídeo de demonstração/pitch:** `[ADICIONAR LINK, SE EXIGIDO]`
 - **Capturas de tela:** pasta [`prints/`](prints/) — veja a seção [Prints das telas](#prints-das-telas).
+  - [Splash](prints/01-splash.png)
+  - [Onboarding — página 1](prints/02-onboarding-1.png)
+  - [Onboarding — página 2](prints/03-onboarding-2.png)
+  - [Onboarding — página 3 com “Não mostrar novamente”](prints/04-onboarding-3-nao-mostrar-novamente.png)
+  - [Mapa colaborativo](prints/05-mapa.png)
+  - [Mapa — lista equivalente](prints/06-mapa-lista.png)
+  - [Detalhe de local (ficha de acessibilidade)](prints/07-detalhe-local.png)
+  - [Detalhe de barreira (validação da comunidade)](prints/08-detalhe-barreira.png)
+  - [Locais](prints/09-locais.png)
+  - [Locais — filtro por tipo](prints/10-locais-filtro.png)
+  - [Locais — busca](prints/11-locais-busca.png)
+  - [Relatar — API estado inicial](prints/12-relatar-api-inicial.png)
+  - [Relatar — API carregando](prints/13-relatar-api-carregando.png)
+  - [Relatar — API sucesso](prints/14-relatar-api-sucesso.png)
+  - [Relatar — API erro e nova tentativa](prints/15-relatar-api-erro.png)
+  - [Perfil local](prints/16-perfil.png)
+  - [Relato enviado (aguardando validação)](prints/17-relato-enviado.png)
+  - [Notícias](prints/18-noticias.png)
+  - [Painel do gestor](prints/19-gestor.png)
+  - [Gestor — fila de moderação](prints/20-gestor-fila-moderacao.png)
+  - [Gestor — relato aprovado](prints/21-gestor-relato-aprovado.png)
+  - [Gestor — ranking de prioridade](prints/22-gestor-ranking.png)
+  - [Mapa após aprovação](prints/23-mapa-apos-aprovacao.png)
 
 ---
 
