@@ -156,6 +156,54 @@ Tela principal — AcessaCidade
 O sistema também permite navegar pelos locais públicos, consultar checklists de acessibilidade e visualizar indicadores no painel do gestor.
 
 Para mais informações, consulte [Fluxo e demonstração](docs/fluxo_e_demo.md).
+
+### Prints das telas
+
+Capturas reais da aplicação em execução (build Web de produção, `flutter build web --release`, em viewport de celular 412 px). Todos os arquivos estão na pasta [`prints/`](prints/).
+
+#### Splash e Onboarding
+
+| Splash | Onboarding 1 | Onboarding 2 | Onboarding 3 |
+| :---: | :---: | :---: | :---: |
+| <img src="prints/01-splash.png" width="200" alt="Splash com logo"> | <img src="prints/02-onboarding-1.png" width="200" alt="Onboarding página 1"> | <img src="prints/03-onboarding-2.png" width="200" alt="Onboarding página 2"> | <img src="prints/04-onboarding-3-nao-mostrar-novamente.png" width="200" alt="Onboarding página 3 com Não mostrar novamente marcado"> |
+| [01-splash.png](prints/01-splash.png) | [02-onboarding-1.png](prints/02-onboarding-1.png) | [03-onboarding-2.png](prints/03-onboarding-2.png) | [04-onboarding-3-nao-mostrar-novamente.png](prints/04-onboarding-3-nao-mostrar-novamente.png) |
+
+#### Mapa
+
+| Mapa | Lista equivalente | Detalhe de local | Detalhe de barreira |
+| :---: | :---: | :---: | :---: |
+| <img src="prints/05-mapa.png" width="200" alt="Mapa colaborativo"> | <img src="prints/06-mapa-lista.png" width="200" alt="Lista equivalente ao mapa"> | <img src="prints/07-detalhe-local.png" width="200" alt="Ficha de acessibilidade de um local"> | <img src="prints/08-detalhe-barreira.png" width="200" alt="Detalhes de uma barreira com validação da comunidade"> |
+| [05-mapa.png](prints/05-mapa.png) | [06-mapa-lista.png](prints/06-mapa-lista.png) | [07-detalhe-local.png](prints/07-detalhe-local.png) | [08-detalhe-barreira.png](prints/08-detalhe-barreira.png) |
+
+#### Locais
+
+| Lista de locais | Filtro por tipo (UBS) | Busca sem resultado |
+| :---: | :---: | :---: |
+| <img src="prints/09-locais.png" width="200" alt="Lista de locais públicos"> | <img src="prints/10-locais-filtro.png" width="200" alt="Filtro por UBS"> | <img src="prints/11-locais-busca.png" width="200" alt="Busca com estado vazio"> |
+| [09-locais.png](prints/09-locais.png) | [10-locais-filtro.png](prints/10-locais-filtro.png) | [11-locais-busca.png](prints/11-locais-busca.png) |
+
+#### Relatar — estados da API REST (Nominatim)
+
+| Inicial | Carregando | Sucesso | Erro + tentar novamente |
+| :---: | :---: | :---: | :---: |
+| <img src="prints/12-relatar-api-inicial.png" width="200" alt="Formulário no estado inicial"> | <img src="prints/13-relatar-api-carregando.png" width="200" alt="Consulta de endereço carregando"> | <img src="prints/14-relatar-api-sucesso.png" width="200" alt="Endereço retornado pela API"> | <img src="prints/15-relatar-api-erro.png" width="200" alt="Erro na consulta com botão Tentar consulta novamente"> |
+| [12-relatar-api-inicial.png](prints/12-relatar-api-inicial.png) | [13-relatar-api-carregando.png](prints/13-relatar-api-carregando.png) | [14-relatar-api-sucesso.png](prints/14-relatar-api-sucesso.png) | [15-relatar-api-erro.png](prints/15-relatar-api-erro.png) |
+
+> O estado de **erro** foi capturado simulando a falta de conexão com a API durante a requisição.
+
+#### Envio do relato e moderação
+
+| Perfil local | Relato enviado (pendente) | Fila de moderação | Relato aprovado | Mapa após aprovação |
+| :---: | :---: | :---: | :---: | :---: |
+| <img src="prints/16-perfil.png" width="160" alt="Folha Meu perfil"> | <img src="prints/17-relato-enviado.png" width="160" alt="Relato aguardando validação do gestor"> | <img src="prints/20-gestor-fila-moderacao.png" width="160" alt="Fila de moderação com o novo relato"> | <img src="prints/21-gestor-relato-aprovado.png" width="160" alt="Fila vazia e indicadores atualizados após aprovação"> | <img src="prints/23-mapa-apos-aprovacao.png" width="160" alt="Mapa com 11 relatos após aprovação"> |
+| [16-perfil.png](prints/16-perfil.png) | [17-relato-enviado.png](prints/17-relato-enviado.png) | [20-gestor-fila-moderacao.png](prints/20-gestor-fila-moderacao.png) | [21-gestor-relato-aprovado.png](prints/21-gestor-relato-aprovado.png) | [23-mapa-apos-aprovacao.png](prints/23-mapa-apos-aprovacao.png) |
+
+#### Notícias e Gestor
+
+| Notícias | Painel do gestor | Ranking de prioridade |
+| :---: | :---: | :---: |
+| <img src="prints/18-noticias.png" width="200" alt="Notícias do bairro"> | <img src="prints/19-gestor.png" width="200" alt="Painel do gestor com indicadores"> | <img src="prints/22-gestor-ranking.png" width="200" alt="Ranking de prioridade e exportação PDF"> |
+| [18-noticias.png](prints/18-noticias.png) | [19-gestor.png](prints/19-gestor.png) | [22-gestor-ranking.png](prints/22-gestor-ranking.png) |
   
 
 ## 6. Priorização das ocorrências
@@ -245,7 +293,7 @@ Os testes automatizados verificam, entre outros comportamentos, visibilidade de 
 ## 10. Links e materiais da entrega
 
 - **Vídeo de demonstração/pitch:** `[ADICIONAR LINK, SE EXIGIDO]`
-- **Capturas de tela:** `[ADICIONAR CAPTURAS REAIS EM docs/screenshots/, SE EXIGIDAS]`
+- **Capturas de tela:** pasta [`prints/`](prints/) — veja a seção [Prints das telas](#prints-das-telas).
 
 ---
 
