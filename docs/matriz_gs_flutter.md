@@ -13,4 +13,3 @@
 
 **Observação:** o enunciado exige `Image.asset` ou `Image.network`; o logo da Splash usa `Image.asset`.
 
-**Muito importante:** nenhum teste de build foi executado no ambiente de geração. Rodar `flutter pub get`, `flutter analyze`, `flutter test` e `flutter run -d chrome` localmente antes de considerar a implementação pronta.
