@@ -1,6 +1,6 @@
 # AcessaCidade — Mapa Colaborativo de Acessibilidade Urbana
 
-> **Global Solution FIAP · 2º semestre de 2026 · Flutter / Dart**
+> **Global Solution FIAP · 2º semestre de 2026 · Flutter**
 
 ## Equipe
 
