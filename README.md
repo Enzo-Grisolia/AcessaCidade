@@ -292,7 +292,7 @@ Os testes automatizados verificam, entre outros comportamentos, visibilidade de 
 
 ## 10. Links e materiais da entrega
 
-- **Vídeo de demonstração/pitch:** `https://youtu.be/EpbfvW2on78?si=MqiMnB5z_JOqFqTX`
+- **Vídeo de demonstração/pitch:** https://youtu.be/EpbfvW2on78?si=MqiMnB5z_JOqFqTX
 - **Capturas de tela:** pasta [`prints/`](prints/) — veja a seção [Prints das telas](#prints-das-telas).
   - [Splash](prints/01-splash.png)
   - [Onboarding — página 1](prints/02-onboarding-1.png)
